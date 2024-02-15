@@ -33,7 +33,7 @@ public class DemoJdbcClientApplication {
 			try {
 				repository.findById(ID);
 			} catch (Exception e) {
-				System.out.println("PET WITH ID '" + ID + "' NOT FOUND");
+				System.out.println("PET WITH ID '" + ID + "' WAS NOT FOUND");
 			}
 
 			System.out.println(repository.findAll());
